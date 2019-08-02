@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import axios from "axios";
 
 function createNewElement(tag, content = null, className = null, attributes = null) {
     const element = document.createElement(tag);
@@ -13,10 +14,12 @@ function appendChildrenToParrent(parent, children) {
     children.map(child => parent.appendChild(child));
 }
 
-fetch("https://artem122ya.github.io/shop-vanilla/src/data.json")
-    .then(response => response.json())
-    .then(res => console.log(res));
+// fetch("https://artem122ya.github.io/shop-vanilla/src/data.json")
+//     .then(response => response.json())
+//     .then(res => console.log(res));
 
+
+axios.get("https://artem122ya.github.io/shop-vanilla/src/data.json").then(res => console.log(res.data));
 
 const h5 = createNewElement("h5", "Card title", "card-title");
 const p = createNewElement("p", "text", "card-text");
