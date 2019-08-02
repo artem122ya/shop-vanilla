@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Product #1", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #2", "amount": 5, "price": 2000, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #3", "amount": 20, "price": 165, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #4", "amount": 50, "price": 10.2, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #5", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #6", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #7", "amount": 5, "price": 2000, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #8", "amount": 20, "price": 165, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #9", "amount": 50, "price": 10.2, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    },
+    {
+        "name": "Product #10", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
+    }
+]
