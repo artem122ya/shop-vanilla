@@ -1,32 +1,29 @@
-[
-    {
-        "name": "Product #1", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #2", "amount": 5, "price": 2000, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #3", "amount": 20, "price": 165, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #4", "amount": 50, "price": 10.2, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #5", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #6", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #7", "amount": 5, "price": 2000, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #8", "amount": 20, "price": 165, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #9", "amount": 50, "price": 10.2, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    },
-    {
-        "name": "Product #10", "amount": 12, "price": 123.6, "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore laborum aperiam iure deleniti, temporibus doloremque consectetur suscipit eveniet, nemo non ad! Cum hic debitis harum modi asperiores! Ipsum, voluptas."
-    }
-]
+{
+    "0":{"name":"Product #1","amount": 12,"price": 123.6,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "1":{"name":"Product #2","amount": 5,"price": 10.6,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "2":{"name":"Product #3","amount": 7,"price": 25.0,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "3":{"name":"Product #4","amount": 23,"price": 42.56,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "4":{"name":"Product #5","amount": 50,"price": 52.6,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "5":{"name":"Product #6","amount": 43,"price": 100.0,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "6":{"name":"Product #7","amount": 8,"price": 69.32,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "7":{"name":"Product #8","amount": 3,"price": 366.15,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "8":{"name":"Product #9","amount": 102,"price": 5.22,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "9":{"name":"Product #10","amount": 56,"price": 67.56,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "10":{"name":"Product #11","amount": 96,"price": 25.6,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "11":{"name":"Product #12","amount": 30,"price": 456.4,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "12":{"name":"Product #13","amount": 11,"price": 78.09,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "13":{"name":"Product #14","amount": 15,"price": 146.0,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "14":{"name":"Product #15","amount": 79,"price": 324.76,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "15":{"name":"Product #16","amount": 45,"price": 143.21,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "16":{"name":"Product #17","amount": 61,"price": 4.46,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "17":{"name":"Product #18","amount": 42,"price": 44.88,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "18":{"name":"Product #19","amount": 85,"price": 34.11,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "19":{"name":"Product #20","amount": 13,"price": 345.2,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "20":{"name":"Product #21","amount": 57,"price": 21.0,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "21":{"name":"Product #22","amount": 56,"price": 234.44,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "22":{"name":"Product #23","amount": 23,"price": 1290.0,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "23":{"name":"Product #24","amount": 27,"price": 77.2,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "24":{"name":"Product #25","amount": 35,"price": 87.02,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "25":{"name":"Product #26","amount": 39,"price": 76.55,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+    "26":{"name":"Product #27","amount": 1,"price": 233.16,"description":"When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products."},
+}
