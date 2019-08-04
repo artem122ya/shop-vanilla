@@ -14,26 +14,29 @@ function appendChildrenToParrent(parent, children) {
     children.map(child => parent.appendChild(child));
 }
 
-// fetch("https://artem122ya.github.io/shop-vanilla/src/data.json")
-//     .then(response => response.json())
-//     .then(res => console.log(res));
+function createProductElement(name, description, amount, price,
+    pictureUrl = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/image/AppleInc/aos/published/images/m/ac/macbook/select/macbook-select-space-gray-201706?wid=904&hei=840&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1539399810190") {
+    const h5 = createNewElement("h5", name, "card-title");
+    const p = createNewElement("p", description, "card-text");
+    const priceEl = createNewElement("p", price, "card-text");
+    const a = createNewElement("a", "Buy", "btn btn-primary", [{name: "href", value: "#"}])
 
 
-axios.get("https://artem122ya.github.io/shop-vanilla/src/data.json").then(res => console.log(res.data));
+    const cardBody = createNewElement("div", [h5, p, priceEl, a], "card-body");
 
-const h5 = createNewElement("h5", "Card title", "card-title");
-const p = createNewElement("p", "text", "card-text");
-const price = createNewElement("p", "1223", "card-text");
-const a = createNewElement("a", "Buy", "btn btn-primary", [{name: "href", value: "#"}])
+    const img = createNewElement("img", null, "card-img-top", [{name: "src", value: pictureUrl, width: "100%"}])
+
+    return createNewElement("div", [img, cardBody], "card col-4");
+}
+
+function renderCards(cardArray) {
+
+    const row = createNewElement("div", [], "row");
+    cardArray.map(card => row.appendChild(createProductElement(card.name, card.description, card.amount, card.price)));
+    
+    const container = createNewElement("div", [row], "container");
+    document.getElementById("app").appendChild(container);
+}
 
 
-const cardBody = createNewElement("div", [h5, p, price, a], "card-body");
-
-const img = createNewElement("img", null, "card-img-top", [{name: "src", value: "http://lorempixel.com/640/480"}])
-
-const card = createNewElement("div", [img, cardBody], "card");
-const col = createNewElement("div", [card], "col-4");
-
-const row = createNewElement("div", [col], "row");
-const container = createNewElement("div", [row], "container");
-document.getElementById("app").appendChild(container);
+axios.get("https://artem122ya.github.io/shop-vanilla/src/data.json").then(res => renderCards(Object.values(res.data)));
