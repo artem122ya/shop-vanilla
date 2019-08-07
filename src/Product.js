@@ -1,8 +1,8 @@
 import { createNewElement } from "./renderFunctions";
 
 
-class Product {
-    Product(id, name, description, amount, price, pictureUrl) {
+export default class Product {
+    constructor(id, name, description, amount, price, pictureUrl) {
         this.pictureUrl = pictureUrl || "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/image/AppleInc/aos/published/images/m/ac/macbook/select/macbook-select-space-gray-201706?wid=904&hei=840&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1539399810190";
         this.id = id;
         this.name = name;
