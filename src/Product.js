@@ -18,7 +18,14 @@ export default class Product {
         const button = createNewElement("a", "Buy", "btn btn-primary", [{name: "href", value: "#"}])
         button.addEventListener("click", e => {
             e.preventDefault();
-            console.log(this.id)
+
+            let cart = JSON.parse(localStorage.getItem("cart"));
+            cart = cart || {};
+            cart[this.id] = {amount: cart[this.id]? ++cart[this.id].amount : 1};
+
+            localStorage.setItem("cart", JSON.stringify(cart));
+
+            console.log(cart);
         })
     
         const cardBody = createNewElement("div", [h5, p, priceEl, button], "card-body");
