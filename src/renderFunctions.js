@@ -12,13 +12,13 @@ function appendChildrenToParrent(parent, children) {
     children.map(child => parent.appendChild(child));
 }
 
-function renderCards(cardArray) {
+function renderCards(cardArray, parentElement) {
 
     const row = createNewElement("div", [], "row");
     cardArray.map((card, index) => row.appendChild(card.createProductElement()));
     
     const container = createNewElement("div", [row], "container");
-    document.getElementById("app").appendChild(container);
+    parentElement.appendChild(container);
 }
 
 export { createNewElement, renderCards }
